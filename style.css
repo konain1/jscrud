@@ -1,0 +1,45 @@
+
+
+body{
+    background-color: #666363;
+}
+.container{
+    border: 1px solid rgb(244, 240, 240);
+    width: 400px;
+    height: 600px;
+    margin: 40px auto;    
+}
+.inputDiv{
+
+    border:1px solid black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #866c6c;
+}
+#inputText{
+
+    border-radius: 10px;
+
+}
+
+
+/* row 2 */
+
+.taskDiv{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.icons{
+    display: flex;
+    width: 80px;
+    justify-content: space-between;
+    gap: 10px;
+    cursor: pointer;
+}
